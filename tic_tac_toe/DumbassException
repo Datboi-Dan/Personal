@@ -1,0 +1,19 @@
+public class DumbassException extends Exception
+{
+
+    public DumbassException(String msg)
+    {
+
+        super(msg);
+
+    }
+
+
+    public DumbassException(Exception cause)
+    {
+
+        super(cause);
+
+    }
+
+}
